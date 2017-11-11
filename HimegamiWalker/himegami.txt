@@ -1,54 +1,28 @@
 
-HIMEGAMI SINKOUHYOU
+HIMEGAMI MY_TEST		ひめがみ記述の開始
 
-SCALE 0.65f
-COLLISION_W 200
-COLLISION_H 200
-ADD_IDLE ./himegami/sinc/i0.png
-ADD_IDLE ./himegami/sinc/i1.png
-ADD_IDLE ./himegami/sinc/i2.png
-ADD_IDLE ./himegami/sinc/i3.png
-ADD_WALK ./himegami/sinc/w0.png
-ADD_WALK ./himegami/sinc/w1.png
-ADD_WALK ./himegami/sinc/w2.png
-ADD_WALK ./himegami/sinc/w3.png
-ANIMATION_FRAME_IDLE 3
-ANIMATION_FRAME_WALK 3
+SCALE 1.2f			大きさ倍率
+COLLISION_W 100			あたり判定 (壁面)
+COLLISION_H 100			あたり判定 (壁面)
+ADD_IDLE ./my_test/i0.png	待機状態のアニメーション画像の追加
+ADD_IDLE ./my_test/i1.png	待機状態のアニメーション画像の追加
+ADD_WALK ./my_test/w0.png	歩行状態のアニメーション画像の追加
+ADD_WALK ./my_test/w1.png	歩行状態のアニメーション画像の追加
+ANIMATION_FRAME_IDLE 3		待機状態のアニメーション速度
+ANIMATION_FRAME_WALK 3		歩行状態のアニメーション速度
 
-END HIMEGAMI
+END HIMEGAMI			ひめがみ記述の終了
 
-HIMEGAMI REN_SINKOUHYOU
+HIMEGAMI MY_TEST_BIG		ひめがみ記述の開始
 
-SCALE 0.65f
-COLLISION_W 200
-COLLISION_H 200
-ADD_IDLE ./himegami/sinc_ren/i0.png
-ADD_IDLE ./himegami/sinc_ren/i1.png
-ADD_IDLE ./himegami/sinc_ren/i2.png
-ADD_IDLE ./himegami/sinc_ren/i3.png
-ADD_WALK ./himegami/sinc_ren/w0.png
-ADD_WALK ./himegami/sinc_ren/w1.png
-ADD_WALK ./himegami/sinc_ren/w2.png
-ADD_WALK ./himegami/sinc_ren/w3.png
-ANIMATION_FRAME_IDLE 3
-ANIMATION_FRAME_WALK 3
+SCALE 3.0f			大きさ倍率
+COLLISION_W 100			あたり判定 (壁面)
+COLLISION_H 100			あたり判定 (壁面)
+ADD_IDLE ./my_test/i0.png	待機状態のアニメーション画像の追加
+ADD_IDLE ./my_test/i1.png	待機状態のアニメーション画像の追加
+ADD_WALK ./my_test/w0.png	歩行状態のアニメーション画像の追加
+ADD_WALK ./my_test/w1.png	歩行状態のアニメーション画像の追加
+ANIMATION_FRAME_IDLE 3		待機状態のアニメーション速度
+ANIMATION_FRAME_WALK 3		歩行状態のアニメーション速度
 
-END HIMEGAMI
-
-HIMEGAMI RAKU
-
-SCALE 0.65f
-COLLISION_W 200
-COLLISION_H 200
-ADD_IDLE ./himegami/raku/i0.png
-ADD_IDLE ./himegami/raku/i1.png
-ADD_IDLE ./himegami/raku/i2.png
-ADD_IDLE ./himegami/raku/i3.png
-ADD_WALK ./himegami/raku/w0.png
-ADD_WALK ./himegami/raku/w1.png
-ADD_WALK ./himegami/raku/w2.png
-ADD_WALK ./himegami/raku/w3.png
-ANIMATION_FRAME_IDLE 3
-ANIMATION_FRAME_WALK 3
-
-END HIMEGAMI
+END HIMEGAMI			ひめがみ記述の終了
